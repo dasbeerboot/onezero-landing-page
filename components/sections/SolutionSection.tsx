@@ -2,19 +2,16 @@
 
 export function SolutionSection() {
   return (
-    <section id="solution" className="relative min-h-screen py-30 lg:py-44 overflow-hidden bg-black before:content-[''] before:absolute before:inset-0 before:bg-[radial-gradient(ellipse_at_20%_66%,rgba(94,246,255,0.10),transparent_30%)] after:content-[''] after:absolute after:inset-0 after:bg-[radial-gradient(ellipse_at_85%_75%,rgba(107,28,63,0.28),transparent_28%)] [&>*:first-child]:before:content-[''] [&>*:first-child]:before:absolute [&>*:first-child]:before:inset-0 [&>*:first-child]:before:bg-[radial-gradient(ellipse_at_50%_78%,rgba(251,255,83,0.07),transparent_30%)]">
+    <section id="solution" className="relative min-h-screen py-30 lg:py-44 overflow-hidden bg-black before:content-[''] before:absolute before:inset-0 before:bg-[radial-gradient(ellipse_at_20%_66%,rgba(94,246,255,0.10),transparent_30%)] after:content-[''] after:absolute after:inset-0 after:bg-[radial-gradient(ellipse_at_85%_75%,rgba(107,28,63,0.28),transparent_28%)] [&>*:first-child]:before:content-[''] [&>*:first-child]:before:absolute [&>*:first-child]:before:inset-0 [&>*:first-child]:before:bg-[radial-gradient(ellipse_at_50%_78%,rgba(251,255,83,0.06),transparent_30%)]">
       {/* 배경 텍스트 - 컨테이너 밖으로 이동 */}
       <div className="pointer-events-none absolute inset-0 z-10">
-        <div className="absolute left-1/2 top-[20%] -translate-x-1/2 -translate-y-1/2 w-[90%]">
-          <p className="text-8xl sm:text-9xl md:text-[12vw] lg:text-[15vw] font-bold leading-none tracking-tighter" style={{
-            background: 'linear-gradient(180deg, rgba(231, 231, 231, 0.21) 0%, rgba(213, 213, 213, 0.13) 80%)',
-            WebkitBackgroundClip: 'text',
-            backgroundClip: 'text',
-            color: 'transparent',
-            filter: 'blur(0.2px)',
-            textShadow: '0 0 30px rgba(255, 255, 255, 0.05)',
-            opacity: 0.7
-          }}>
+        <div className="absolute left-1/2 top-[20%] -translate-x-1/2 -translate-y-1/2 w-[90%] flex justify-center items-center">
+          {/* 외곽선 텍스트 */}
+          <p className="absolute text-8xl sm:text-9xl md:text-[12vw] lg:text-[15vw] font-bold leading-none tracking-tighter text-transparent [-webkit-text-stroke:1px_rgba(255,255,255,0.5)] [mask-image:linear-gradient(to_bottom,rgba(0,0,0,0.55)_0%,rgba(0,0,0,0.42)_44%,rgba(0,0,0,0.25)_66%,rgba(0,0,0,0.12)_88%,rgba(0,0,0,0.05)_94%,rgba(0,0,0,0)_94%,rgba(0,0,0,0)_100%)] opacity-[1.15]">
+            ₩17,500,000
+          </p>
+          {/* 내부 글래스 텍스트 */}
+          <p className="text-8xl sm:text-9xl md:text-[12vw] lg:text-[15vw] font-bold leading-none tracking-tighter text-transparent bg-gradient-to-b from-[rgba(255,255,255,0.12)] via-[rgba(255,255,255,0.07)_44%] via-[rgba(255,255,255,0.035)_66%] via-[rgba(255,255,255,0.02)_88%] via-[rgba(255,255,255,0.01)_94%] to-[rgba(255,255,255,0)_94%] bg-clip-text opacity-[1.0]">
             ₩17,500,000
           </p>
         </div>
