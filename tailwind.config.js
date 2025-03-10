@@ -20,7 +20,7 @@ module.exports = {
         ring: "hsl(var(--ring))",
       },
       fontFamily: {
-        pretendard: ['Pretendard', 'Noto Sans KR', 'sans-serif'],
+        sans: ['var(--font-inter)', 'system-ui', 'sans-serif'],
       },
       keyframes: {
         'gradient-slow': {
