@@ -10,6 +10,10 @@ export function SolutionSection() {
           <p className="absolute text-8xl sm:text-9xl md:text-[12vw] lg:text-[15vw] font-bold leading-none tracking-tighter text-transparent [-webkit-text-stroke:1px_rgba(255,255,255,0.5)] [mask-image:linear-gradient(to_bottom,rgba(0,0,0,0.55)_0%,rgba(0,0,0,0.42)_44%,rgba(0,0,0,0.25)_66%,rgba(0,0,0,0.12)_88%,rgba(0,0,0,0.05)_94%,rgba(0,0,0,0)_94%,rgba(0,0,0,0)_100%)] opacity-[1.15]">
             ₩17,500,000
           </p>
+          {/* 우측 상단 빛 효과 레이어 */}
+          <p className="absolute text-8xl sm:text-9xl md:text-[12vw] lg:text-[15vw] font-bold leading-none tracking-tighter text-transparent [-webkit-text-stroke:1px_rgba(255,255,255,0.25)] [mask-image:radial-gradient(ellipse_at_top_right,rgba(0,0,0,0.9)_0%,rgba(0,0,0,0.5)_15%,rgba(0,0,0,0.2)_30%,rgba(0,0,0,0)_60%)] opacity-[1.2]">
+            ₩17,500,000
+          </p>
           {/* 내부 글래스 텍스트 */}
           <p className="text-8xl sm:text-9xl md:text-[12vw] lg:text-[15vw] font-bold leading-none tracking-tighter text-transparent bg-gradient-to-b from-[rgba(255,255,255,0.12)] via-[rgba(255,255,255,0.07)_44%] via-[rgba(255,255,255,0.035)_66%] via-[rgba(255,255,255,0.02)_88%] via-[rgba(255,255,255,0.01)_94%] to-[rgba(255,255,255,0)_94%] bg-clip-text opacity-[1.0]">
             ₩17,500,000
